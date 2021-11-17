@@ -1,0 +1,3 @@
+[submodule "srsran/srsran-downgrade"]
+	path = srsran/srsran-downgrade
+	url = git@github.com:jwijenbergh/srsran-downgrade.git
