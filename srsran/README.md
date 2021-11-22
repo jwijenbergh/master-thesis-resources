@@ -1,9 +1,10 @@
 # SrsRAN
 This directory contains the files and script needed to run the SrsRAN network:
 - The [./configs](https://github.com/jwijenbergh/master-thesis-resources/tree/main/srsran/configs) directory contains the configuration files which can be changed to change the values given to SrsRAN.
-- The [\*.sh](https://github.com/jwijenbergh/master-thesis-resources/tree/main/srsran) scripts are bash scripts that are used to build and [start the SrsRAN network](#starting]
-- The [shell.nix] Is used for the [Nix package manager](#nix-users).
-- 
+- The [./\*.sh](https://github.com/jwijenbergh/master-thesis-resources/tree/main/srsran) scripts are bash scripts that are used to build and [start the SrsRAN network](#starting]
+- The [./shell.nix](https://github.com/jwijenbergh/master-thesis-resources/tree/main/srsra/shell.nix) Is used for the [Nix package manager](#nix-users).
+- If the submodules were correctly fetched and updated, this directory will contain a [./srsran-downgrade](https://github.com/jwijenbergh/srsran-downgrade/tree/94d1791fb5226e8bca0996cfcf650102324392a2) folder
+
 ## Starting
 To start the SrsRAN network with your SDR attached and the phone registered in the [user_db.csv](https://github.com/jwijenbergh/master-thesis-resources/blob/main/srsran/configs/user_db.csv):
 
