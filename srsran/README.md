@@ -1,8 +1,8 @@
 # SrsRAN
 This directory contains the files and script needed to run the SrsRAN network:
-- The [./configs](https://github.com/jwijenbergh/master-thesis-resources/tree/main/srsran/configs) directory contains the configuration files which can be changed to change the values given to SrsRAN.
-- The [./\*.sh](https://github.com/jwijenbergh/master-thesis-resources/tree/main/srsran) scripts are bash scripts that are used to build and [start the SrsRAN network](#starting]
-- The [./shell.nix](https://github.com/jwijenbergh/master-thesis-resources/tree/main/srsra/shell.nix) Is used for the [Nix package manager](#nix-users).
+- The [./configs](https://github.com/jwijenbergh/master-thesis-resources/tree/main/srsran/configs) directory contains the configuration files which can be changed to change the values given to SrsRAN
+- The [./\*.sh](https://github.com/jwijenbergh/master-thesis-resources/tree/main/srsran) scripts are bash scripts that are used to build and [start the SrsRAN network](#starting)
+- The [./shell.nix](https://github.com/jwijenbergh/master-thesis-resources/tree/main/srsra/shell.nix) Is used for the [Nix package manager](#nix-users)
 - If the submodules were correctly fetched and updated, this directory will contain a [./srsran-downgrade](https://github.com/jwijenbergh/srsran-downgrade/tree/94d1791fb5226e8bca0996cfcf650102324392a2) folder
 
 ## Starting
@@ -25,6 +25,5 @@ This needs the following dependencies:
 - Tmux
 
 ## Nix users
-
 Users of the [Nix](https://nixos.org/download.html) package manager can easily install the SrsRAN dependencies using the provided [shell.nix](https://github.com/jwijenbergh/master-thesis-resources/blob/main/srsran/shell.nix).
 Use `nix-shell` to create an environment for SrsRAN.
