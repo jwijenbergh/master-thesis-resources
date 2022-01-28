@@ -2,6 +2,7 @@
 This repository contains the resources for my Master Thesis at the Radboud University.
 
 The directory structure is the following:
+- [./thesis.pdf](https://github.com/jwijenbergh/master-thesis-resources/tree/main/thesis.pdf): Pdf file of the thesis
 - [./srsRAN](https://github.com/jwijenbergh/master-thesis-resources/tree/main/srsran): Contains the configuration files and the scripts to get the SrsRAN network to run
 
 # Cloning
